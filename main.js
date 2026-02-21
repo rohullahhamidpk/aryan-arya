@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Please fill out all fields.');
         return;
       }
-      const mail = 'info@aryanarya.com';
+      const mail = 'aryanaagrotrade@gmail.com';
       const subject = encodeURIComponent('Partnership Inquiry');
       const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
       window.location.href = `mailto:${mail}?subject=${subject}&body=${body}`;
