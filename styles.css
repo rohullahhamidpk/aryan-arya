@@ -104,11 +104,10 @@ img { display: block; max-width: 100%; height: auto; border-radius: var(--radius
   gap: 16px;
 }
 .logo {
-  color: var(--green);
-  font-weight: 700;
-  text-decoration: none;
-  font-family: Montserrat, Inter, sans-serif;
-  letter-spacing: .2px;
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  height: 56px;
 }
 .site-nav ul {
   list-style: none;
@@ -161,17 +160,43 @@ img { display: block; max-width: 100%; height: auto; border-radius: var(--radius
   align-items: center;
   isolation: isolate;
 }
-.hero-media {
+/* HERO SECTION */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+/* Background Video */
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Dark overlay for readability */
+.hero-overlay {
   position: absolute;
   inset: 0;
-  overflow: hidden;
+  background: rgba(0, 0, 0, 0.55);
   z-index: -1;
 }
-.hero-media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: saturate(1.1) brightness(.9);
+
+/* Content above video */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
 }
 .hero-overlay {
   position: absolute;
@@ -249,7 +274,12 @@ img { display: block; max-width: 100%; height: auto; border-radius: var(--radius
   align-items: center;
 }
 .split.reverse { grid-template-columns: 1fr 1.2fr; }
-.split .media img { border-radius: var(--radius); box-shadow: var(--shadow); }
+.split .media img {
+  width: 100%;
+  height: 100%;
+  max-height: 420px;
+  object-fit: cover;
+}
 
 .process { padding: 72px 0; background: var(--white); }
 .process h2 { text-align: center; margin-bottom: 28px; position: relative; }
@@ -392,7 +422,11 @@ img { display: block; max-width: 100%; height: auto; border-radius: var(--radius
   flex-direction: column;
   transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
 }
-.product-card img { border-radius: 0; aspect-ratio: 16/9; object-fit: cover; transition: transform .3s ease; }
+.product-card img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
 .product-body { padding: 18px; display: grid; gap: 10px; }
 .product-body .actions { margin-top: 4px; display: flex; gap: 10px; flex-wrap: wrap; }
 .product-card:hover {
