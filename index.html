@@ -3,268 +3,612 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Aryan Arya Associates Ltd | Digitally Traceable Garlic & Aaloobukhara Supply Chain</title>
-  <meta name="description" content="Pakistan’s first digitally traceable garlic and dried Aaloobukhara supply chain for international buyers, manufacturers, and export partners." />
+  <title>Aryan Arya Associates Ltd | Traceable Garlic &amp; Aaloobukhara Supply Chain</title>
+  <meta name="description" content="Pakistan's first digitally traceable garlic and dried Aaloobukhara supply chain for international buyers, manufacturers, and export partners." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' fill='%231B4332'/%3E%3Ccircle cx='64' cy='64' r='38' fill='%23C5A572'/%3E%3C/svg%3E">
 </head>
 <body>
+
+  <!-- ── HEADER ── -->
   <header class="site-header" id="header">
-    <div class="container">
-    <img src="logo.png" alt="Aryan Arya Associates Ltd" class="logo">
+    <div class="container hd-inner">
+      <a href="#hero" class="logo-link">
+        <img src="logo.png" alt="Aryan Arya Associates Ltd" class="logo">
+      </a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <nav class="site-nav" aria-label="Primary">
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#process">Process</a></li>
-          <li><a href="#traceability">Traceability</a></li>
+          <li><a href="#process">Supply Chain</a></li>
+          <li><a href="#how-we-process">Processing</a></li>
           <li><a href="#products">Products</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#traceability">Traceability</a></li>
+          <li><a href="#contact" class="nav-cta">Partner With Us</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-   <section class="hero" id="hero" aria-label="Hero">
-  
-  <!-- Background Video -->
-  <video autoplay muted loop playsinline class="hero-video">
-    <source src="landing.mp4" type="video/mp4">
-  </video>
 
-  <!-- Overlay -->
-  <div class="hero-overlay"></div>
-
-  <!-- Content -->
-  <div class="container hero-content">
-    <h1>Pakistan’s First Digitally Traceable Garlic &amp; Aaloobukhara Supply Chain</h1>
-    <p>
-      We build transparent, sustainable, and export-ready agricultural supply chains by connecting farmers directly with food manufacturers using digital traceability and quality control.
-    </p>
-    <div class="hero-cta">
-      <a href="#contact" class="btn btn-primary">Request Partnership</a>
-      <a href="#process" class="btn btn-outline">View Our Process</a>
-    </div>
-  </div>
-
-</section>
-
-    <section class="trust" id="trust" aria-label="Trust Indicators">
-  <div class="container">
-    <h2 class="section-title">Our Trust Indicators</h2>
-    <ul class="stats">
-      <li>
-        <div class="stat-value">300+ Tons</div>
-        <div class="stat-label">Supply Capacity Target</div>
-      </li>
-      <li>
-        <div class="stat-value">&lt; 0.2%</div>
-        <div class="stat-label">Verified Quality Performance</div>
-      </li>
-      <li>
-        <div class="stat-value">100% Traceable</div>
-        <div class="stat-label">QR-Based Batch Tracking</div>
-      </li>
-      <li>
-        <div class="stat-value">Direct Farmer Network</div>
-        <div class="stat-label">Reliable Sourcing</div>
-      </li>
-    </ul>
-  </div>
-</section>
-
-    <section class="about" id="about" aria-label="About">
-      <div class="container split">
-        <div class="copy">
-          <h2>About Aryan Arya Associates</h2>
-          <p>Aryan Arya Associates Ltd is a collective of farmers, traders, and agricultural experts working to transform traditional agricultural sourcing into a transparent and traceable supply chain.</p>
-          <p>We integrate modern technology, farmer partnerships, and strict quality control to deliver export-grade garlic and dried fruits.</p>
-          <p>Our mission is to ensure food safety, quality, and sustainability while building reliable farm-to-factory supply systems.</p>
+    <!-- ══════════════ HERO ══════════════ -->
+    <section class="hero" id="hero">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="landing.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow-light">Pakistan's Pioneer Agro-Tech Export Partner</p>
+        <h1>Digitally Traceable<br>Agricultural Supply Chain</h1>
+        <p class="hero-sub">Export-grade garlic and dried fruit supply built on verified farmer networks, controlled processing, and end-to-end digital traceability.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Request Partnership</a>
+          <a href="#process" class="btn btn-ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            View Our Process
+          </a>
         </div>
-        <div class="media">
-          <img src="garlic1.png" alt="Fresh garlic bulbs close-up">
+        <div class="hero-kpis">
+          <div class="kpi">
+            <span class="kpi-value">300+</span>
+            <span class="kpi-label">Tons Annually</span>
+          </div>
+          <div class="kpi-divider"></div>
+          <div class="kpi">
+            <span class="kpi-value">&lt;0.2%</span>
+            <span class="kpi-label">Defect Rate</span>
+          </div>
+          <div class="kpi-divider"></div>
+          <div class="kpi">
+            <span class="kpi-value">100%</span>
+            <span class="kpi-label">QR Traceable</span>
+          </div>
+          <div class="kpi-divider"></div>
+          <div class="kpi">
+            <span class="kpi-value">3</span>
+            <span class="kpi-label">Product Lines</span>
+          </div>
+        </div>
+      </div>
+      <a href="#trust" class="scroll-down" aria-label="Scroll down">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+      </a>
+    </section>
+
+    <!-- ══════════════ TRUST STRIP ══════════════ -->
+    <section class="trust-strip" id="trust">
+      <div class="container">
+        <ul class="trust-list">
+          <li class="trust-item reveal">
+            <span class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </span>
+            <div>
+              <strong>300+ Tons Capacity</strong>
+              <span>Annual supply target</span>
+            </div>
+          </li>
+          <li class="trust-item reveal reveal-d1">
+            <span class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </span>
+            <div>
+              <strong>&lt;0.2% Defect Rate</strong>
+              <span>Verified quality performance</span>
+            </div>
+          </li>
+          <li class="trust-item reveal reveal-d2">
+            <span class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            </span>
+            <div>
+              <strong>100% QR Traceable</strong>
+              <span>Batch-level digital records</span>
+            </div>
+          </li>
+          <li class="trust-item reveal reveal-d3">
+            <span class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </span>
+            <div>
+              <strong>Direct Farmer Network</strong>
+              <span>No intermediaries</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ══════════════ ABOUT ══════════════ -->
+    <section class="section" id="about">
+      <div class="container split-layout">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Who We Are</p>
+          <h2>Transforming Pakistan's Agricultural Supply Chain</h2>
+          <p>Aryan Arya Associates Ltd is a collective of farmers, traders, and agricultural experts working to transform traditional agricultural sourcing into a transparent and traceable supply chain.</p>
+          <p>We integrate modern technology, verified farmer partnerships, and strict quality protocols to deliver export-grade garlic and dried fruits to international manufacturers and buyers.</p>
+          <p>Our mission: ensure food safety, quality, and sustainability while building farm-to-factory supply systems that stand up to global scrutiny.</p>
+          <div class="tag-row">
+            <span class="tag">Sustainable Sourcing</span>
+            <span class="tag">Digital Traceability</span>
+            <span class="tag">Export-Grade Quality</span>
+          </div>
+        </div>
+        <div class="split-media reveal reveal-d1">
+          <img src="garlic1.png" alt="Fresh garlic bulbs">
         </div>
       </div>
     </section>
 
-    <section class="process" id="process" aria-label="Field to Factory Process">
+    <!-- ══════════════ FIELD TO FACTORY ══════════════ -->
+    <section class="section section-alt" id="process">
       <div class="container">
-        <h2>Field to Factory Process</h2>
-        <ol class="steps">
-          <li>
-            <div class="step-card">
-              <h3>Step 1: Farm Sourcing</h3>
-              <p>We work directly with farmers and monitor production.</p>
+        <div class="sh centered reveal">
+          <p class="eyebrow">Our Supply Chain</p>
+          <h2>Field to Factory</h2>
+          <p class="sh-desc">Every step from farm sourcing to final delivery is monitored, documented, and digitally traceable.</p>
+        </div>
+        <ol class="steps-row" aria-label="Supply chain steps">
+          <li class="step reveal">
+            <div class="step-n">01</div>
+            <div class="step-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M5 12c1-5 9-9 7-2"/><path d="M19 12c-1-5-9-9-7-2"/><path d="M5 17s2 2 7 2 7-2 7-2"/></svg>
             </div>
+            <h3>Farm Sourcing</h3>
+            <p>We work directly with verified farmers, monitoring crop cultivation and harvest timing for peak quality output.</p>
           </li>
-          <li>
-            <div class="step-card">
-              <h3>Step 2: Processing and Drying</h3>
-              <p>Products undergo controlled drying and handling.</p>
+          <li class="step reveal reveal-d1">
+            <div class="step-n">02</div>
+            <div class="step-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
             </div>
+            <h3>Processing &amp; Drying</h3>
+            <p>Products undergo controlled drying and precision handling in certified facilities, preserving nutritional integrity.</p>
           </li>
-          <li>
-            <div class="step-card">
-              <h3>Step 3: Quality Control</h3>
-              <p>Each batch is inspected and digitally tracked.</p>
+          <li class="step reveal reveal-d2">
+            <div class="step-n">03</div>
+            <div class="step-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </div>
+            <h3>Quality Control</h3>
+            <p>Each batch is rigorously inspected against international standards and assigned a unique digital traceability ID.</p>
           </li>
-          <li>
-            <div class="step-card">
-              <h3>Step 4: Packaging and Distribution</h3>
-              <p>Products are hygienically packed and delivered.</p>
+          <li class="step reveal reveal-d3">
+            <div class="step-n">04</div>
+            <div class="step-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
             </div>
+            <h3>Packaging &amp; Distribution</h3>
+            <p>Products are hygienically sealed in export-grade materials and shipped with complete documentation and traceability records.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <section class="traceability" id="traceability" aria-label="Traceability">
-      <div class="container split reverse">
-        <div class="media">
-          <img src="garlic2.png" alt="QR code and tracking concept">
+    <!-- ══════════════ HOW WE PROCESS — DARK ══════════════ -->
+    <section class="section dark-section" id="how-we-process">
+      <div class="container">
+        <div class="sh centered reveal">
+          <p class="eyebrow eyebrow-light">Behind the Scenes</p>
+          <h2 class="heading-light">How We Process Our Products</h2>
+          <p class="sh-desc sh-desc-light">Every product passes through a six-stage processing pipeline — ensuring export-grade quality, safety, and consistency at each step.</p>
         </div>
-        <div class="copy">
-          <h2>Fully Traceable Supply Chain</h2>
-          <p>Our digital traceability system allows every batch to be tracked from farm to delivery. We monitor:</p>
-          <ul class="bullets">
-            <li>Farm origin</li>
-            <li>Harvest data</li>
-            <li>Processing</li>
-            <li>Quality inspection</li>
-            <li>Shipment tracking</li>
+
+        <div class="proc-grid">
+          <div class="proc-card reveal">
+            <span class="proc-num">01</span>
+            <div class="proc-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M5 12c1-5 9-9 7-2"/><path d="M19 12c-1-5-9-9-7-2"/><path d="M5 17s2 2 7 2 7-2 7-2"/></svg>
+            </div>
+            <h3>Field Harvesting &amp; Selection</h3>
+            <p>Products are hand-harvested at peak ripeness from verified partner farms. Only produce meeting strict pre-harvest criteria enters the supply chain.</p>
+          </div>
+
+          <div class="proc-card reveal reveal-d1">
+            <span class="proc-num">02</span>
+            <div class="proc-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>
+            </div>
+            <h3>Sorting &amp; Size Grading</h3>
+            <p>Harvested produce is sorted by size, weight, and visual quality through manual and mechanical grading. Damaged or irregular items are removed.</p>
+          </div>
+
+          <div class="proc-card reveal reveal-d2">
+            <span class="proc-num">03</span>
+            <div class="proc-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
+            </div>
+            <h3>Washing &amp; Pre-Treatment</h3>
+            <p>All produce is cleaned with potable, food-grade water. Natural pre-treatment methods extend shelf life and maintain texture — no artificial preservatives.</p>
+          </div>
+
+          <div class="proc-card reveal">
+            <span class="proc-num">04</span>
+            <div class="proc-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>
+            </div>
+            <h3>Controlled Drying</h3>
+            <p>Temperature and humidity-controlled drying achieves precise moisture targets while preserving flavour, aroma, and nutritional content required for international export.</p>
+          </div>
+
+          <div class="proc-card reveal reveal-d1">
+            <span class="proc-num">05</span>
+            <div class="proc-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3>Quality Inspection &amp; QR Assignment</h3>
+            <p>Every batch is tested for moisture content, colour, and contamination. A unique QR code is assigned, linking buyers to the complete processing history.</p>
+          </div>
+
+          <div class="proc-card reveal reveal-d2">
+            <span class="proc-num">06</span>
+            <div class="proc-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>Export-Grade Packaging</h3>
+            <p>Approved batches are sealed in food-safe packaging with tamper-evident seals and QR traceability labels — ready for international shipment with full documentation.</p>
+          </div>
+        </div>
+
+        <div class="proc-assurance reveal">
+          <div class="assurance-item">
+            <div class="assurance-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <strong>Zero Compromise on Safety</strong>
+              <p>Every batch meets international food safety standards before leaving our facility.</p>
+            </div>
+          </div>
+          <div class="assurance-divider"></div>
+          <div class="assurance-item">
+            <div class="assurance-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <div>
+              <strong>Data-Driven Quality</strong>
+              <p>Digital records for every processing parameter — temperature, humidity, batch weight, and inspection results.</p>
+            </div>
+          </div>
+          <div class="assurance-divider"></div>
+          <div class="assurance-item">
+            <div class="assurance-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </div>
+            <div>
+              <strong>Sustainable Practices</strong>
+              <p>Energy-efficient drying and waste reduction protocols at every stage of processing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ TRACEABILITY ══════════════ -->
+    <section class="section" id="traceability">
+      <div class="container split-layout reverse">
+        <div class="split-media reveal">
+          <img src="garlic2.png" alt="Digital batch traceability">
+        </div>
+        <div class="split-copy reveal reveal-d1">
+          <p class="eyebrow">Digital Trust</p>
+          <h2>End-to-End Traceability</h2>
+          <p>Our digital traceability system allows every batch to be tracked from farm to delivery. Buyers scan any QR-labelled package to access the full product journey.</p>
+          <ul class="trace-list">
+            <li>
+              <span class="tl-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <div>
+                <strong>Farm Origin</strong>
+                <span>GPS-verified farm location and farmer profile</span>
+              </div>
+            </li>
+            <li>
+              <span class="tl-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <div>
+                <strong>Harvest Data</strong>
+                <span>Date, crop variety, and growing conditions</span>
+              </div>
+            </li>
+            <li>
+              <span class="tl-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <div>
+                <strong>Processing Records</strong>
+                <span>Full log with timestamps and parameters</span>
+              </div>
+            </li>
+            <li>
+              <span class="tl-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <div>
+                <strong>Quality Inspection</strong>
+                <span>Results, moisture levels, and certifications</span>
+              </div>
+            </li>
+            <li>
+              <span class="tl-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <div>
+                <strong>Shipment Tracking</strong>
+                <span>Logistics chain and delivery confirmation</span>
+              </div>
+            </li>
           </ul>
-          <p>This ensures transparency and buyer confidence.</p>
         </div>
       </div>
     </section>
 
-    <section class="products" id="products" aria-label="Products">
+    <!-- ══════════════ PRODUCTS ══════════════ -->
+    <section class="section section-alt" id="products">
       <div class="container">
-        <h2>Our Products</h2>
-        <div class="cards">
-          <article class="product-card">
-            <img src="galicin.jpg" alt="Garlic cloves and bulbs">
+        <div class="sh centered reveal">
+          <p class="eyebrow">Our Range</p>
+          <h2>Export-Ready Products</h2>
+          <p class="sh-desc">Three digitally traceable product lines sourced from verified Pakistani farms and processed to international standards.</p>
+        </div>
+        <div class="product-grid">
+
+          <article class="product-card reveal">
+            <div class="product-img">
+              <img src="galicin.jpg" alt="Premium export garlic bulbs and cloves">
+              <span class="product-label">Available for Export</span>
+            </div>
             <div class="product-body">
-              <h3>Garlic</h3>
-              <p>High quality, export-ready garlic with low spoilage and consistent supply.</p>
-              <div class="actions">
-                <a href="#contact" class="btn btn-outline">View Details</a>
-                <a href="#contact" class="btn btn-primary">Send Inquiry</a>
+              <p class="product-category">Allium sativum</p>
+              <h3>Premium Garlic</h3>
+              <p>Export-ready garlic with consistent bulb sizing, low moisture content, and full batch traceability — delivered with verified quality documentation.</p>
+              <ul class="product-specs">
+                <li>Low moisture for extended shelf life</li>
+                <li>Consistent grade and sizing per batch</li>
+                <li>QR traceable from farm to delivery</li>
+              </ul>
+              <div class="product-actions">
+                <a href="#contact" class="btn btn-outline btn-sm">Request Specs</a>
+                <a href="#contact" class="btn btn-primary btn-sm">Send Inquiry</a>
               </div>
             </div>
           </article>
-          <article class="product-card">
-            <img src="dried.jpg" alt="Dried plums in a rustic bowl">
+
+          <article class="product-card reveal reveal-d1">
+            <div class="product-img">
+              <img src="dried.jpg" alt="Premium dried Aaloobukhara plums">
+              <span class="product-label">Available for Export</span>
+            </div>
             <div class="product-body">
+              <p class="product-category">Prunus domestica</p>
               <h3>Aaloobukhara (Dried Plum)</h3>
-              <p>Premium dried plums sourced from trusted farms with high quality standards.</p>
-              <div class="actions">
-                <a href="#contact" class="btn btn-outline">View Details</a>
-                <a href="#contact" class="btn btn-primary">Send Inquiry</a>
+              <p>Premium dried plums sourced from highland farms — naturally dried, rich in flavour, and packed to international food safety and hygiene standards.</p>
+              <ul class="product-specs">
+                <li>Naturally dried, no artificial additives</li>
+                <li>Consistent colour and flavour profile</li>
+                <li>Export-grade hygienic packaging</li>
+              </ul>
+              <div class="product-actions">
+                <a href="#contact" class="btn btn-outline btn-sm">Request Specs</a>
+                <a href="#contact" class="btn btn-primary btn-sm">Send Inquiry</a>
               </div>
             </div>
           </article>
+
+          <article class="product-card reveal reveal-d2">
+            <div class="product-img product-img-empty">
+              <img src="dried_cloves.png" alt="Dried garlic cloves" onerror="this.closest('.product-img').classList.add('no-img')">
+              <span class="product-label product-label-new">New Product</span>
+            </div>
+            <div class="product-body">
+              <p class="product-category">Allium sativum — Cloves</p>
+              <h3>Dried Garlic Cloves</h3>
+              <p>Peeled and naturally dried garlic cloves, processed for extended shelf life and ready-to-use convenience — suited for food processors and bulk export buyers.</p>
+              <ul class="product-specs">
+                <li>Naturally dried, retaining flavour and aroma</li>
+                <li>Uniform sizing with low moisture content</li>
+                <li>QR traceable from farm to delivery</li>
+              </ul>
+              <div class="product-actions">
+                <a href="#contact" class="btn btn-outline btn-sm">Request Specs</a>
+                <a href="#contact" class="btn btn-primary btn-sm">Send Inquiry</a>
+              </div>
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
 
-    <section class="case" id="case" aria-label="Case Study">
-      <div class="container split">
-        <div class="copy">
-          <h2>Proven Supply Partner</h2>
-          <p>We successfully supplied garlic to leading food manufacturers with verified quality results, low spoilage rates, and full traceability. Our systems ensure reliable, scalable, and consistent supply.</p>
+    <!-- ══════════════ CASE STUDY ══════════════ -->
+    <section class="section" id="case">
+      <div class="container split-layout">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Proven Track Record</p>
+          <h2>Trusted by Leading Food Manufacturers</h2>
+          <p>We have successfully supplied garlic to leading Pakistani food manufacturers — delivering verified quality results, industry-low spoilage rates, and full end-to-end traceability. Our systems are built for reliability, scale, and consistency.</p>
+          <div class="case-stats">
+            <div class="case-stat">
+              <span class="cs-val">0</span>
+              <span class="cs-label">Product recalls</span>
+            </div>
+            <div class="case-stat">
+              <span class="cs-val">&lt;0.2%</span>
+              <span class="cs-label">Spoilage rate</span>
+            </div>
+            <div class="case-stat">
+              <span class="cs-val">100%</span>
+              <span class="cs-label">On-time delivery</span>
+            </div>
+          </div>
         </div>
-        <div class="media">
-          <img src="shan.png" alt="Logistics and export containers">
+        <div class="split-media reveal reveal-d1">
+          <img src="shan.png" alt="Export logistics and shipping containers">
         </div>
       </div>
     </section>
 
-    <section class="infrastructure" id="infrastructure" aria-label="Infrastructure and Expansion">
+    <!-- ══════════════ WHY CHOOSE US ══════════════ -->
+    <section class="section section-alt" id="why">
       <div class="container">
-        <h2>Infrastructure and Expansion</h2>
-        <p>We are building large-scale processing and drying facilities, farmer networks, and logistics systems to support growing global demand. Our target is to supply over 300 tons annually.</p>
-      </div>
-    </section>
-
-    <section class="why" id="why" aria-label="Why Choose Us">
-      <div class="container">
-        <h2>Why Choose Us</h2>
-        <ul class="bullets cols">
-          <li>Fully Traceable Supply</li>
-          <li>Export Ready Quality</li>
-          <li>Direct Farmer Network</li>
-          <li>Reliable Supply Capacity</li>
-          <li>Transparent Operations</li>
+        <div class="sh centered reveal">
+          <p class="eyebrow">Our Advantage</p>
+          <h2>Why Aryan Arya Associates</h2>
+          <p class="sh-desc">What sets us apart from traditional agro-supply businesses in Pakistan and the region.</p>
+        </div>
+        <ul class="why-grid">
+          <li class="why-card reveal">
+            <div class="why-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3>Fully Traceable Supply</h3>
+            <p>QR-based digital tracking from farm origin to final delivery — every step recorded and buyer-accessible.</p>
+          </li>
+          <li class="why-card reveal reveal-d1">
+            <div class="why-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+            </div>
+            <h3>Export-Ready Quality</h3>
+            <p>Products meet international quality and food safety standards with verified lab documentation on every shipment.</p>
+          </li>
+          <li class="why-card reveal reveal-d2">
+            <div class="why-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Direct Farmer Network</h3>
+            <p>No middlemen. We work directly with farmers — ensuring fair pricing, supply chain control, and consistent produce quality.</p>
+          </li>
+          <li class="why-card reveal">
+            <div class="why-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <h3>Reliable Supply Capacity</h3>
+            <p>Structured networks and storage infrastructure to meet consistent, large-volume buyer demand throughout the year.</p>
+          </li>
+          <li class="why-card reveal reveal-d1">
+            <div class="why-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3>Transparent Operations</h3>
+            <p>Every process, quality metric, and pricing structure is openly shared with supply partners — no hidden costs.</p>
+          </li>
+          <li class="why-card reveal reveal-d2">
+            <div class="why-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3>Global Compliance</h3>
+            <p>Documentation, certifications, and export packaging aligned with international import requirements and food safety regulations.</p>
+          </li>
         </ul>
       </div>
     </section>
 
-    <section class="contact" id="contact" aria-label="Contact">
-      <div class="container split">
-        <div class="copy">
+    <!-- ══════════════ CONTACT ══════════════ -->
+    <section class="section" id="contact">
+      <div class="container split-layout">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Get In Touch</p>
           <h2>Partner With Us</h2>
-          <p>We welcome partnerships with food manufacturers, exporters, and investors.</p>
-          <ul class="contact-list">
-            <li><strong>Phone</strong>: +92 322 2990708</li>
-            <li><strong>Email</strong>: aryanaagrotrade@gmail.com</li>
-            <li><strong>Location</strong>: Karachi, Pakistan</li>
+          <p>We welcome partnerships with food manufacturers, exporters, processors, and investors. Reach out to discuss your requirements and build a reliable, traceable supply relationship.</p>
+          <ul class="contact-details">
+            <li>
+              <span class="cd-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.87h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.4a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+923222990708">+92 322 2990708</a>
+              </div>
+            </li>
+            <li>
+              <span class="cd-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:aryanaagrotrade@gmail.com">aryanaagrotrade@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="cd-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <strong>Location</strong>
+                <span>Karachi, Pakistan</span>
+              </div>
+            </li>
           </ul>
         </div>
-        <div class="form-wrap">
-          <form id="contact-form" class="form" action="#" method="post" novalidate>
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name" required />
+        <div class="form-card reveal reveal-d1">
+          <form id="contact-form" class="form" novalidate>
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
+            <div class="field">
+              <label for="email">Business Email</label>
               <input type="email" id="email" name="email" placeholder="you@company.com" required />
             </div>
-            <div class="form-group">
+            <div class="field">
               <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Tell us about your requirements" rows="5" required></textarea>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your requirements — product type, volume, destination market…" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-primary btn-block">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
           </form>
         </div>
       </div>
     </section>
+
   </main>
 
-  <footer class="site-footer" id="footer">
-    <div class="container footer-grid">
-      <div class="foot-brand">
-        <div class="brand">Aryan Arya Associates Ltd</div>
-        <div class="copy-small">Digitally traceable garlic &amp; dried plum supply</div>
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name">Aryan Arya Associates Ltd</p>
+        <p class="footer-tagline">Pakistan's first digitally traceable garlic &amp; dried fruit supply chain. Connecting farms to factories with transparency and trust.</p>
       </div>
-      <div class="foot-links">
-        <h4>Quick Links</h4>
+      <div class="footer-nav">
+        <h4>Company</h4>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#process">Process</a></li>
-          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#process">Supply Chain</a></li>
+          <li><a href="#how-we-process">How We Process</a></li>
+          <li><a href="#traceability">Traceability</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <div class="foot-contact">
-        <h4>Contact</h4>
+      <div class="footer-nav">
+        <h4>Products</h4>
         <ul>
-          <li>aryanaagrotrade@gmail.com</li>
-          <li>+92 322 2990708</li>
+          <li><a href="#products">Premium Garlic</a></li>
+          <li><a href="#products">Aaloobukhara (Dried Plum)</a></li>
+          <li><a href="#products">Dried Garlic Cloves</a></li>
+        </ul>
+        <h4 style="margin-top:24px">Contact</h4>
+        <ul>
+          <li><a href="tel:+923222990708">+92 322 2990708</a></li>
+          <li><a href="mailto:aryanaagrotrade@gmail.com">aryanaagrotrade@gmail.com</a></li>
           <li>Karachi, Pakistan</li>
         </ul>
       </div>
     </div>
-    <div class="container foot-bottom">
-      <p>© <span id="year"></span> Aryan Arya Associates Ltd. All rights reserved.</p>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year"></span> Aryan Arya Associates Ltd. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
